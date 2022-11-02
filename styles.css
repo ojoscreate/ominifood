@@ -1,0 +1,651 @@
+/*----=============== Beginning of first page  =========-----*/
+
+header{
+    
+}
+@font-face{
+    src: url("TheFountainofWishes.ttf");
+    font-family:TheFountainofWishes;
+}
+.family{
+    font-family:TheFountainofWishes;
+}
+
+
+body{
+    background: #fcfdfe;
+    margin: 0;
+ 
+   
+}
+
+
+
+#main{
+    background: #fff1e6;
+      
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    background: #fdf2e9;
+}
+
+.ominifood{
+    width: 180px;
+    margin: 30px;
+}
+
+#img-btn1{
+    background-color: inherit;
+    border: none;
+    
+}
+
+.btn-top{
+    margin: 15px;
+    border: none;
+    background: #fff1e6;
+    font-weight: bold;
+}
+
+.btn-top:hover{
+    color: #e98b38;
+}
+.btn-top1{
+    background: #e98b38;
+    margin: 0px 20px 0 0;
+    padding: 20px;
+    color: #fffcf2;
+    border-radius: 10px;
+}
+
+.btn-top1:hover{
+    color: #fffcf2;
+    background-color: #CE6F1B;
+}
+
+.intro1-h1{
+   font-size: 65px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 60px;
+    margin: 30px 0;
+    color: #1d2d44;
+    
+}
+.intro{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e5c76;
+    
+}
+
+.intro1{
+    padding: 70px 0px;
+}
+
+.btn-intro1{
+    margin: 20px 3px;
+    padding: 10px 15px;
+    letter-spacing: 0.4px;
+    border-radius: 8px;
+    font-weight: bolder;
+     border: none;
+     color: #fffcf2;
+     background: #e98b38;
+}
+
+.btn-intro1:hover{
+    background-color: #CE6F1B;
+}
+
+.btn-intro{
+    margin: 10px 4px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold; 
+    border: none;
+    color: #3e5c76;
+    background: #fff;       
+}
+
+.btn-intro:hover{
+    background-color: inherit;
+    border: 4px solid #fffcf2;
+}
+
+.imageside-intro{
+   
+    width: 55px; 
+    height: 50px;   
+    margin: -10px; 
+    border-radius: 80%;
+    border: 3px #fffcf2 solid;
+}
+
+.intro-last{
+    display: flex;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    letter-spacing: 0.4px;
+}
+.intro-p{
+    margin: 10px;
+    padding: 10px;
+}
+
+.intro-img{
+  width: 520px;  
+} 
+
+.footer{
+    text-align: center;
+    font-weight: lighter;
+}
+.foot{
+    display: flex;
+}
+
+.img-foot{
+        width: 170px;
+        content: icon; 
+         margin: 20px 10px;
+        padding: 0 20px;
+       
+}
+/*----===============  end of first page  =========-----*/
+
+
+ /*------============== page2 main ===========-------------*/
+ 
+ 
+#page2-main{
+       margin: 0;
+       padding: 20px 40px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page2-content{
+      display: flex;
+      text-align: center;
+}
+ .page2-h3{
+     color: #e98b38;
+     font-weight: lighter;
+     margin: 15px;
+    line-height: 3px;
+     letter-spacing: 0.4px;
+       text-align: left;
+ }       
+ .page2-h2{
+     font-weight: 100;
+     font-size: 65px;
+     text-align: left;
+     margin: 30px;
+     padding: 0 30px 0 0px ;
+     color: #252422;
+    
+ }   
+
+.page2-cont{
+    text-align: left;
+    color: #9ca9c3;
+    font-size: 20px;
+    margin: 20px;
+    padding: 60px 20px;
+}
+.phone-img{
+    width: 200px;
+    margin: 30px;
+    padding: 30px;
+    
+}
+.page-2-head{
+    color: #9ca9c3;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family:TheFountainofWishes;
+}
+.page2-subhead{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+/*--------============== /psge2-main =============---*/
+
+
+/*--------------------===-- PAGE3 -=========--------*/
+
+#page3-main{
+    margin: 0;
+     padding: 20px 0px;
+     text-align: center;
+}
+
+ .page3-h3{
+     color: #e98b38;
+     font-weight: lighter;
+     margin: 15px;
+     line-height: 3px;
+     letter-spacing: 0.4px;
+      text-align: left;
+ }      
+  
+ .page3-h2{
+     font-weight: 100;
+     font-size: 65px;
+     margin: 20px;
+     padding: 0 30px 0 0px ;
+     color: #252422;
+     font-family:TheFountainofWishes;
+     text-align: left;
+     
+ }   
+ 
+.page-h3{
+      font-size: 30px;
+      margin: 30px;  
+}
+
+.page3-coluwns{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 25px;
+}
+
+ul{
+    font-size: 23px;
+    margin: 30px;
+    
+}
+
+
+.page3-img{
+    width: 350px;
+    margin: 0 0 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.coluwn1-page3{
+    box-shadow:0px 0px 9px #9ca9c3; 
+     border: none;
+     line-height: 30px;
+     width: 350px;
+     height: 600px;
+     background: #fcfdfe; 
+     border-radius: 10px;
+     text-align: left;
+}
+
+
+#page3-sub{
+    margin: 0 40px;
+}
+.page3-h4{
+    display: inline-flex;
+    background: #a7c957;
+    border: none;
+    border-radius: 20px;
+    padding: 3px 9px;
+    font-size: 13px;
+    
+}
+.h4b{
+    background: #ffc300;
+}
+
+.coluwn2-page3{
+     border: none;
+     width: 300px;
+}
+
+.recipe{
+    color: #e98b38;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 3px #e98b38;
+    background: #fcfdfe;
+}
+
+.recipe:hover{
+    border: none;
+    color: black;
+}
+
+
+
+/*--------------------===-- /PAGE3 -=========--------*/
+
+/*--------------------===-- PAGE4 -=========--------*/
+
+#page4-main{
+     margin: 0px;
+     padding: 0px 0px;
+     background: #fdf2e9;
+    
+}
+.pg4-h2{
+    font-size: 50px;
+}
+
+.page4-coluwn{
+     
+      display: inline-flex;
+     align-items: center;
+     margin-inline-start: 20px;
+     justify-content: space-between;
+    
+    
+}
+
+#page4-subcoluwn{
+            display: inline-flex;
+            
+           
+}
+
+.img-pg4{
+    border-radius: 60px;
+    width: 80px;
+}
+.fullname{
+    color: #9ca9c3;
+    font-size: inherit;
+}
+
+.img-foodp4{
+    width: 200px;
+    margin: 7px 2.5px;
+}
+
+#PG4-img{
+        margin: none;
+        display: inline-flex;
+}
+#quote{
+    display: inline-block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    margin-inline-start: 20px;
+    margin-inline-end: 40px;
+    line-height: 35px;
+    font-size: 18.5px;
+    
+}
+
+
+/*--------------------===-- /PAGE4 -=========--------*/
+
+/*--------------------===-- PAGE5 -=========--------*/
+
+#page5-main{
+      margin: 70px 50px 40px;
+     padding: 20px 0px;
+     background: inherit;
+     font-size: 20px;
+     text-align: center;
+     color: #9ca9c3;
+     line-height: 33px;
+}
+
+.pg5-colon{
+    display: flex;
+    justify-content: center;   
+}
+
+#colon1a{
+     border: 3px solid  #fff1e6;
+     border-radius: 10px;
+     width: 430px;     
+    height: 550px;
+    margin: 80px 30px 50px;
+    padding: 40px 5px 20px;
+    box-shadow: 0px 0px 5px #fdf2e9;
+}
+
+#colon1b{
+     border-radius: 10px;
+     width: 430px;
+    height: 550px;
+    margin: 80px 30px 50px;
+    padding: 40px 20px 20px;
+    background: #fdf2e9;
+}
+
+.colon-h2{
+    color: #e98b38;
+}
+
+#h2-cta{
+    font-size: 65px;
+    margin: 5px;
+}
+
+#list{
+    text-align: left;
+    line-height: 45px;
+    font-size: 20px;
+    color: #252422;
+    list-style-type:none;
+}
+#list-mark{
+    font-size: 20px;    
+    color: #e98b38;
+    font-size: 30px;
+    margin: 0 10px 0 0;
+    font-weight: lighter;
+}
+
+.pg5-btn{
+    color: #ffffff;
+    background: #e98b38;
+    border: none;
+    border-radius: 10px;
+    margin: 30px 0 0px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.pg5-btn:hover{
+    background-color: #CE6F1B;
+}
+
+#pg5-btn-sub{
+    margin: 75px 0 0;
+}
+
+#symbol{
+        margin: 50px 0;
+        background: #fff1e6;
+        border-radius: 100%; 
+        width: 50px;
+        height: 50px; 
+    
+}
+#symb{
+        margin: 42px 0% 35px;
+        background: #fff1e6;
+        border-radius: 100%; 
+        width: 50px;
+        height: 50px; 
+    
+}
+
+
+
+#infini{
+    
+      font-size: 45px;
+     font-weight: 100;
+      color: #e98b38;
+       padding: 10px ;
+      
+} 
+
+.pause{
+    display: inline-flex;
+    justify-content: center;
+}
+#pause{
+    margin: 10px 0 0px;
+    padding:0px;
+     font-size: 35px;
+     font-weight: 100;
+      color: #e98b38;
+  
+      
+  
+}
+
+.pg5-sub-colon{
+    width:300px;
+    text-align: left;
+     justify-content: space-around;
+     margin: 10px;
+}
+
+ #lastpause{
+     margin: 20px;
+ }
+ 
+.pg5-last{
+        color: #252422;
+        font-size: 27px;
+    
+}
+
+    
+/*--------------------===-- /PAGE5 -=========--------*/
+
+/*--------------------===-- 0PAGE6 -=========--------*/
+
+#page6-main{
+    
+       margin: 0px auto 70px;
+       margin-left: 30px;
+     padding: 20px 10px;
+     color: #54260a;
+    
+}
+#pg-para{
+    width: 667.5px;
+}
+
+.pg6-con{
+   margin: 0 14px 0 -5px ;
+}
+#page6-p{
+    display: inline-flex;
+    margin: 40px;
+      height: 530px;
+     background: #e98b38;
+      line-height: 33px;
+      border-radius: 10PX;
+     font-size: 19px;
+     
+     
+}
+.pg6-content{
+    margin: 15px;
+    padding: 30px; 
+}
+#pg6-img{
+    width: 370px;
+    height: inherit;
+    margin: none;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: inherit;
+   color: inherit;
+   background-image: url("eating.jpg");
+   background-size: cover;
+}
+.pg6-h2{
+    font-size: 35px;
+}
+#pg6-coluwn{
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    font-weight: 400;
+  
+}
+#input{
+    margin: 0 18px 15px -1px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+}
+#select-input{
+    padding: 15px 65px;
+    border-radius: 10px;
+    border: none;
+}
+.input-btn{
+    margin: 55px 0;
+    padding: 17px 95px;
+    border-radius: 10px;
+    border: none;
+    background: #45260a;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f1f2e9;
+}
+
+.input-btn:hover{
+    background-color: #f1f2e9;
+    color: #45260a;
+}
+
+/*--------------------===-- /PAGE6 -=========--------*/
+/*-----------================ Footer =======--------*/
+#footer-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    line-height: 35px;
+    color: #8b768b;
+    font-size: 15.5px;
+    font-weight: 200;
+}
+
+.footy-coly{
+    width: 2000px;
+    margin: 20px;
+    padding: 5px;
+    
+}
+
+.footer-h3{
+    color:#617d98;
+    font-size: 24px;
+    margin: 0 0 30px 0;
+}
+
+.ominifood2{
+    width: 180px;
+    margin: 0px;
+}
+.fa{
+   margin:20px; 
+
+}
+
+.facebook{
+    size: 10px;
+    background-color: #8b768b;
+}
+/*-----------================ /Footer =============--------*/
+
+
