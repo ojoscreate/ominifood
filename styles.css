@@ -2,7 +2,7 @@
 
 header{
     
-}
+
 @font-face{
     src: url("TheFountainofWishes.ttf");
     font-family:TheFountainofWishes;
@@ -15,6 +15,7 @@ header{
 body{
     background: #fcfdfe;
     margin: 0;
+    font-family: "Rubik", sans-serif"
  
    
 }
@@ -23,7 +24,8 @@ body{
 
 #main{
     background: #fff1e6;
-      
+    padding: 0 2rem;
+
     
 }
 
@@ -31,10 +33,10 @@ body{
     display: flex;
     justify-content: space-between;
     background: #fdf2e9;
+    padding: 0;
 }
-
 .ominifood{
-    width: 180px;
+    width: 180;
     margin: 30px;
 }
 
