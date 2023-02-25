@@ -15,8 +15,12 @@ header{
 body{
     background: #fcfdfe;
     margin: 0;
- 
+    font-family: "Rubik", sans-serif,"open sans";
    
+}
+
+p{
+    font-size: smaller;
 }
 
 
@@ -96,9 +100,9 @@ body{
     letter-spacing: 0.4px;
     border-radius: 8px;
     font-weight: bolder;
-     border: none;
-     color: #fffcf2;
-     background: #e98b38;
+    border: none;
+    color: #fffcf2;
+    background: #e98b38;
 }
 
 .btn-intro1:hover{
@@ -143,7 +147,7 @@ body{
 }
 
 .intro-img{
-  width: 520px;  
+  width: 620px;  
 } 
 
 .footer{
@@ -214,7 +218,7 @@ body{
     color: #9ca9c3;
     font-size: 100px;
     font-weight: bolder;
-    font-family:TheFountainofWishes;
+    font-family: "Rubik", sans-serif, "Open Sans", sans-serif;;
 }
 .page2-subhead{
     color: black;
