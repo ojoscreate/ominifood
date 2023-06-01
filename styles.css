@@ -147,7 +147,7 @@ p{
 }
 
 .intro-img{
-  width: 620px;  
+  width: 38.75rem;  
 } 
 
 .footer{
@@ -161,8 +161,8 @@ p{
 }
 
 .img-foot{
-        width: 170px;
-        content: icon; 
+        width: 10.625rem;
+         
          margin: 20px 10px;
         padding: 0 20px;
        
@@ -540,13 +540,16 @@ ul{
 #page6-main{
     
        margin: 0px auto 70px;
-       margin-left: 30px;
+       margin-left: 50px;
      padding: 20px 10px;
      color: #54260a;
     
 }
 #pg-para{
-    width: 667.5px;
+    /* width: 41.71875rem; */
+    width: 580px;
+    margin: auto;
+   
 }
 
 .pg6-con{
@@ -555,11 +558,11 @@ ul{
 #page6-p{
     display: inline-flex;
     margin: 40px;
-      height: 530px;
-     background: #e98b38;
-      line-height: 33px;
-      border-radius: 10PX;
-     font-size: 19px;
+    height: 35rem;
+    background: #e98b38;
+    line-height: 33px;
+    border-radius: 10px;
+    font-size: 19px;
      
      
 }
@@ -569,6 +572,7 @@ ul{
 }
 .pg6-h2{
     text-align: center;
+    font-weight: bolder;
 }
 #pg6-img{
     width: 370px;
@@ -602,7 +606,7 @@ ul{
     border: none;
 }
 .input-btn{
-    margin: 55px 0;
+    margin: 50px 0;
     padding: 17px 95px;
     border-radius: 10px;
     border: none;
@@ -630,7 +634,7 @@ ul{
 }
 
 .footy-coly{
-    width: 2000px;
+    width: 125rem;
     margin: 20px;
     padding: 5px;
     
@@ -669,5 +673,57 @@ ul{
     background-color: #8b768b;
 }
 /*-----------================ /Footer =============--------*/
+ /* ------------------------======= Responsiveness ========---------- */
+ /* -------------============- Mobile ==========------------- */
+ 
+ @media screen and (max-width:576px){
+    /* -------------====== footer========-------------- */
+    #footer-main{
+        position: absolute;
+        clear: left;
+        flex-direction: column;
+        margin: auto auto;
+        align-items: center;
+        justify-content: center;
+        line-height: normal;
 
+    }
+    .footy-coly{
+        width: 100%;
+        margin: 0 auto;
 
+    }
+
+ }
+ /* --------========== Tablet ===========-------- */
+
+@media (max-width:1000px) {
+    /* --------------======== page1 ========--------------- */
+    
+    .intro{
+        flex-direction: column;
+
+    }
+    .intro-img{
+        width: 450px;
+        margin: auto;
+    }
+    
+    .foot{
+        margin: auto;
+        width: 70%;
+    }
+    .img-foot{
+          width: 9rem;
+          margin: 10px 5px;
+          padding: 0 10px;
+    }
+
+    /* -----------------================= /page1 =================------------------- */
+   
+    /* ------------------=========== page5 ==========------------ */
+
+    .pg5-colon {
+        flex-direction: column;
+    }
+}  
