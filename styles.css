@@ -672,6 +672,11 @@ ul{
     size: 30px;
     background-color: #8b768b;
 }
+
+a:focus-visible{
+    outline-offset: none;
+    outline: #0d192b dotted 3px;
+}
 /*-----------================ /Footer =============--------*/
  /* ------------------------======= Responsiveness ========---------- */
  /* -------------============- Mobile ==========------------- */
