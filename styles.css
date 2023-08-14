@@ -680,6 +680,30 @@ a:focus-visible{
 /* -------------============- Mobile ==========------------- */
  
 @media screen and (max-width:576px){
+    .btn-intro1{
+        margin: 30px 18px;
+        padding: 12px 17px;
+        letter-spacing: 0.4px;
+        border-radius: 9px;
+        font-weight: bolder;
+        border: none;
+        color: #fffcf2;
+        background: #e98b38;
+        font-size: x-large;
+    }
+    
+
+    
+    .btn-intro{
+        margin: 30px 14px;
+        padding: 11.5px 17px;
+        border-radius: 9px;
+        font-weight: bold; 
+        border: none;
+        color: #3e5c76;
+        background: #fff; 
+        font-size: x-large;      
+    }
     /* -------------====== page 1===------ */
     .foot{
         margin: auto;
