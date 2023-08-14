@@ -89,7 +89,7 @@ p{
 }
 
 .intro1{
-    padding: 70px 0px;
+    padding: 70px 0px ;
 }
 
 .btn-intro1{
@@ -399,7 +399,7 @@ ul{
      background: inherit;
      font-size: 20px;
      text-align: center;
-     color: #9ca9c3;
+     color: #606f8d;
      line-height: 33px;
 }
 
@@ -544,8 +544,8 @@ ul{
     
 }
 #pg-para{
-    /* width: 41.71875rem; */
-    width: 580px;
+    width: 36.25rem;
+    /* width: 580px; */
     margin: auto;
    
 }
@@ -556,7 +556,7 @@ ul{
 #page6-p{
     display: inline-flex;
     margin: 40px;
-    height: 35rem;
+    /* height: 35rem; */
     background: #e98b38;
     line-height: 33px;
     border-radius: 10px;
@@ -592,7 +592,7 @@ ul{
     font-weight: 400;
   
 }
-#input{
+.input{
     margin: 0 18px 15px -1px;
     padding: 15px 30px;
     border-radius: 10px;
@@ -676,10 +676,21 @@ a:focus-visible{
     outline: #0d192b dotted 3px;
 }
 /*-----------================ /Footer =============--------*/
- /* ------------------------======= Responsiveness ========---------- */
- /* -------------============- Mobile ==========------------- */
+/* ------------------------======= Responsiveness ========---------- */
+/* -------------============- Mobile ==========------------- */
  
- @media screen and (max-width:576px){
+@media screen and (max-width:576px){
+    /* -------------====== page 1===------ */
+    .foot{
+        margin: auto;
+        width: 85%;
+    }
+    .img-foot{
+          width: 4rem;
+          margin: 10px 5px;
+          padding: 0 10px;
+    }
+
     /* -------------====== footer========-------------- */
     #footer-main{
         position: absolute;
@@ -697,16 +708,76 @@ a:focus-visible{
 
     }
 
- }
- /* --------========== Tablet ===========-------- */
+}
+/* --------========== Tablet ===========-------- */
 
 @media (max-width:1000px) {
     /* --------------======== page1 ========--------------- */
-    
+
     .intro{
         flex-direction: column;
+        width: 95%;
 
     }
+    .intro1-h1{
+        font-size: 65.5px;
+         font-weight: 100;
+         letter-spacing: 0.5px;
+         line-height: 60px;
+         margin: 30px auto;
+         color: #1d2d44;
+        
+         
+     }
+     .intro1{
+         padding: 70px 10px 20px;
+         margin: auto;
+
+     }
+     .div-btn{
+        text-align: center;
+     }
+     
+     .btn-intro1{
+         margin: 30px 18px;
+         padding: 12px 17px;
+         letter-spacing: 0.4px;
+         border-radius: 9px;
+         font-weight: bolder;
+         border: none;
+         color: #fffcf2;
+         background: #e98b38;
+         font-size: x-large;
+     }
+     
+
+     
+     .btn-intro{
+         margin: 30px 14px;
+         padding: 11.5px 17px;
+         border-radius: 9px;
+         font-weight: bold; 
+         border: none;
+         color: #3e5c76;
+         background: #fff; 
+         font-size: x-large;      
+     }
+
+     .intro-last{
+        display: inline-block;
+        /* margin: 10px; */
+        font-size: 18px;
+        font-weight: bold;
+        justify-content: space-around;
+        letter-spacing: 0.4px;
+        width: 80%;
+    }
+    .intro-p{
+        margin: 0 auto;
+       float:right;
+    }
+    
+
     .intro-img{
         width: 450px;
         margin: auto;
@@ -717,7 +788,7 @@ a:focus-visible{
         width: 70%;
     }
     .img-foot{
-          width: 9rem;
+          width: 6rem;
           margin: 10px 5px;
           padding: 0 10px;
     }
